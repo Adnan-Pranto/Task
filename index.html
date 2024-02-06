@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blog Page</title>
+<style>
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Navbar */
+  .navbar {
+    background-color: #FFFFFF;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    color: #fff;
+  }
+  
+  .navbar a {
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+  }
+  
+  /* Footer */
+  .site-footer
+{
+  display: flex;
+  background-color:#FFFFFF;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px;
+}
+.site-footer a
+{
+  color:#737373;
+}
+.site-footer a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links
+{
+  padding-left:0;
+  list-style:none;
+}
+.footer-links li
+{
+  display:block;
+}
+.footer-links a
+{
+  color:#737373
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links.inline li
+{
+  display:inline-block
+}
+.site-footer .social-icons
+{
+  text-align:right
+}
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#33353d
+}
+.copyright-text
+{
+  margin:0
+}
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
+  }
+}
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+}
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
+}
+.social-icons li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#96a2b2;
+  font-weight:700;
+  font-size:13px
+}
+.social-icons a{
+  background-color:#eceeef;
+  color:#818a91;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:#fff;
+  background-color:#29aafe
+}
+.social-icons.size-sm a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
+}
+.social-icons a.facebook:hover
+{
+  background-color:#3b5998
+}
+.social-icons a.twitter:hover
+{
+  background-color:#00aced
+}
+.social-icons a.linkedin:hover
+{
+  background-color:#007bb6
+}
+.social-icons a.dribbble:hover
+{
+  background-color:#ea4c89
+}
+@media (max-width:767px)
+{
+  .social-icons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600
+  }
+}
+
+  /* Blog Content */
+  .blog-content {
+    padding: 20px;
+    margin-bottom: 30px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    overflow: hidden; /* To contain floated elements */
+    width: 1900px;
+height: 900px;
+top: 200px;
+border-radius: 10px;
+  }
+
+   .blog-content img {
+    float: right; /* Image floated to the right */
+    margin-left: 20px;
+    max-width: 50%; /* Adjust as needed */
+    height: auto;
+    padding: 50px;
+  }
+
+  /* Media Query for Mobile Responsiveness */
+  @media screen and (max-width: 600px) {
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    .navbar a {
+      padding: 10px;
+    }
+  }
+</style>
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="navbar">
+  <div class="navbar-brand">
+    <a href="#">Happy Coaching</a>
+  </div>
+  <div class="navbar-links">
+    <a href="#">Home</a>
+    <a href="#">Service</a>
+    <a href="#">About Us</a>
+    <a href="#">Extra Salespage</a>
+  </div>
+</div>
+
+<!-- Blog Content -->
+<div class="blog-content">
+    <img src="images\Screenshot 2024-02-06 150118.png" alt="Image" />
+    <h1 style="color: #483D8B;">Live life at the full potential</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, ea debitis, adipisci laudantium deleniti quod culpa earum quisquam est corporis doloribus ad atque libero? Veritatis sunt nam natus, velit consequatur quos exercitationem officia repellat soluta, sit repudiandae cum a quo quasi, quae esse id odit adipisci cumque laboriosam ab. Cum!</p>
+  </div>
+
+<div class="blog-content">
+  <h1 style="color: #483D8B;">I can help you in these particular areas</h1>
+  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid inventore rerum neque sunt vero aut iste ea qui alias ad, error facilis, rem voluptates, maxime vel totam quasi animi ducimus? Quos ad quae eligendi? Aut blanditiis ea sit, maiores expedita magnam impedit veniam? Tempore accusantium praesentium perspiciatis exercitationem iure facilis!</p>
+</div>
+
+<div class="blog-content">
+  <h1 style="color: #483D8B;">Hear out what my client say about me</h1>
+  <p>Curabitur ut dolor non tortor rhoncus ultrices. Proin ut fermentum lorem. Sed fringilla velit id neque rhoncus, id interdum eros hendrerit.</p>
+</div>
+
+<div class="blog-content">
+  <h1 style="color: #483D8B;">Blog Post Title 4</h1>
+  <p>Integer eu tincidunt neque. Nam sed magna non urna convallis varius. Cras vel ex nec justo vehicula laoreet non sed elit.</p>
+</div>
+
+<div class="blog-content">
+  <h1 style="color: #483D8B;">Blog Post Title 5</h1>
+  <p>Donec vel mauris ut nulla fermentum pretium. Aliquam vel odio nec justo vestibulum tincidunt sed nec ex. Suspendisse finibus enim nec eros placerat lacinia.</p>
+</div>
+
+<div class="blog-content">
+  <h1 style="color: #483D8B;">Blog Post Title 6</h1>
+  <p>Nam non ex id nisi fermentum vestibulum. Vestibulum non felis odio. Morbi lobortis, mauris sit amet malesuada sodales, arcu leo ultricies dolor, id venenatis magna purus ac velit.</p>
+</div>
+
+<div class="blog-content">
+  <h1 style="color: #483D8B;">Blog Post Title 7</h1>
+  <p>Proin a lacus vehicula, tempor neque et, efficitur justo. Cras vel nunc fermentum, placerat mi et, suscipit lectus. Aliquam erat volutpat.</p>
+</div>
+
+<!-- Footer -->
+  <!-- Site footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-6">
+          <h6>Happy Coaching</h6>
+          <p class="text-justify">Design amaizing digital experiences that create more happy in the world</p>
+        </div>
+
+        <div class="col-xs-6 col-md-3">
+          <h6>Pages</h6>
+          <ul class="footer-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Extra Sales/Landingpage</a></li>
+            <li><a href="#">Free</a></li>
+          </ul>
+        </div>
+
+        <div class="col-xs-6 col-md-3">
+          <h6>Contact</h6>
+          <ul class="footer-links">
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Contribute</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Sitemap</a></li>
+          </ul>
+        </div>
+      </div>
+      <hr>
+    </div>
+    </div>
+</footer>
+
+</body>
+</html>
